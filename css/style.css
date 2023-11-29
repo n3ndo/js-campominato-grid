@@ -9,10 +9,6 @@ header{
     height: 100px;
     background-color: white;
 }
-main{
-    width: 100%;
-    background-color: blue;
-}
 
 #grid{
     width: 1000px;
@@ -35,4 +31,8 @@ main{
 
 .f-wrap{
     flex-wrap: wrap;
+}
+
+.bg-blue{
+    background-color: blue;
 }
