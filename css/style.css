@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: blue;
+}
+
+/* common */
+.font-size-30{
+    font-size: 30px;
+}
