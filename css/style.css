@@ -11,11 +11,28 @@ header{
 }
 main{
     width: 100%;
-    height: calc(100vh - 100px);
     background-color: blue;
 }
 
+#grid{
+    width: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* common */
 .font-size-30{
     font-size: 30px;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
 }
